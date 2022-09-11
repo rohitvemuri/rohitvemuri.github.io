@@ -76,6 +76,10 @@ header h1 {
 	-webkit-animation: gradient 10s ease infinite;
 }
 
+header h1 a {
+    text-decoration: none;
+}
+
 .links{
     list-style: none;
     padding-left: 0px;
@@ -154,4 +158,46 @@ section .paragraph-link {
 
 .links li:first-child {
     padding-left: 0px;
+}
+
+.entry {
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.entry h2 {
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 10s ease infinite;
+	-moz-animation: gradient 10s ease infinite;
+	-webkit-animation: gradient 10s ease infinite;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.entry h3 {
+    font-weight: 100;
+    font-size: 16px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+.blog-dot {
+    text-decoration: none;
+    background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 10s ease infinite;
+	-moz-animation: gradient 10s ease infinite;
+	-webkit-animation: gradient 10s ease infinite;
 }
