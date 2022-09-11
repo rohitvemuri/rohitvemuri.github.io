@@ -1,0 +1,118 @@
+html, body {
+    /* width: 100%; */
+    min-height: 100%;
+}
+
+@font-face {
+    font-family: 'Bacalisties';
+    src: url('resources/Bacalisties.ttf') format('truetype');
+ }
+  
+body {
+    background-color: whitesmoke;
+    /* background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 60s ease infinite; */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 33%;
+    }
+    33% {
+        background-position: 67% 33%;
+    }
+    67% {
+        background-position: 100% 67%;
+    }
+    100% {
+        background-position: 0% 33%;
+    }
+}
+
+.content {
+    width: 60%;
+    min-height: 100%;
+    top: 0;
+    float: center;
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Avenir';
+    padding: 0;
+    /* background-color: rgba(250, 227, 113, .2); */
+}
+
+header {
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* header h1 {
+    font-family: 'Bacalisties';
+    font-weight: bolder;
+    padding-top:10px;
+    font-style: italic;
+    background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 60s ease infinite;
+    -moz-animation: gradient 60s ease infinite;
+	-webkit-animation: gradient 60s ease infinite;
+} */
+
+header h1 {
+	background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+	background-size: 200%;
+	font-family: 'Bacalisties';
+	font-weight: 700;
+	font-size: 40px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 10s ease infinite;
+	-moz-animation: gradient 10s ease infinite;
+	-webkit-animation: gradient 10s ease infinite;
+}
+
+.links{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 18px;
+    color: black;
+}
+
+.links li{
+    display: inline;
+    padding-left: 8px;
+}
+
+/* .dot {
+    background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+	background-size: 200%;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 10s ease infinite;
+	-moz-animation: gradient 10s ease infinite;
+	-webkit-animation: gradient 10s ease infinite;
+} */
+
+#dot1 {
+    color: #ee7752;
+}
+
+#dot2 {
+    color: #d03ce7;
+}
+
+#dot3 {
+    color: #23a6d5;
+}
+
+#dot4 {
+    color: #23d5ab;
+}
+
+.links li:first-child {
+    padding-left: 0px;
+}
