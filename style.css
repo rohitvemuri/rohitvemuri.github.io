@@ -86,6 +86,25 @@ header h1 {
 .links li{
     display: inline;
     padding-left: 8px;
+    font-weight: 500;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+.links li a:hover {
+    font-weight: 500;
+    text-decoration: none;
+    background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 10s ease infinite;
+	-moz-animation: gradient 10s ease infinite;
+	-webkit-animation: gradient 10s ease infinite;
 }
 
 /* .dot {
