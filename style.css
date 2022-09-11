@@ -68,6 +68,7 @@ header h1 {
 	font-family: 'Bacalisties';
 	font-weight: 700;
 	font-size: 40px;
+    background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: gradient 10s ease infinite;
@@ -111,6 +112,25 @@ header h1 {
 
 #dot4 {
     color: #23d5ab;
+}
+
+section .homepage-paragraph {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+section .paragraph-link {
+    font-weight: 500;
+    text-decoration: none;
+    background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 10s ease infinite;
+	-moz-animation: gradient 10s ease infinite;
+	-webkit-animation: gradient 10s ease infinite;
 }
 
 .links li:first-child {
