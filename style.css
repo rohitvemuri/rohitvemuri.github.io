@@ -156,6 +156,13 @@ section .paragraph-link {
 	-webkit-animation: gradient 10s ease infinite;
 }
 
+section .blog-paragraph {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+
 .links li:first-child {
     padding-left: 0px;
 }
@@ -183,11 +190,16 @@ section .paragraph-link {
     margin-bottom: 0px;
 }
 
+.entry h2 a {
+    text-decoration: none;
+}
+
 .entry h3 {
     font-weight: 100;
     font-size: 16px;
     color: #777777;
     margin-top: 5px;
+    padding-bottom: 15px;
 }
 
 .blog-dot {
