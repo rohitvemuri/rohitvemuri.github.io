@@ -111,6 +111,10 @@ header h1 a {
 	-webkit-animation: gradient 10s ease infinite;
 }
 
+.links li:first-child {
+    padding-left: 0px;
+}
+
 /* .dot {
     background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
 	background-size: 200%;
@@ -162,14 +166,9 @@ section .blog-paragraph {
     font-size: 18px;
 }
 
-
-.links li:first-child {
-    padding-left: 0px;
-}
-
 .entry {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     float: center;
     text-align: center;
     padding-top: 10px;
