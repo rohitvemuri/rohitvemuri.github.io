@@ -6,8 +6,13 @@ html, body {
 @font-face {
     font-family: 'Bacalisties';
     src: url('resources/Bacalisties.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('resources/AvenirLTStd-Book.otf') format('truetype');
  }
-  
+
 body {
     background-color: whitesmoke;
     /* background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
