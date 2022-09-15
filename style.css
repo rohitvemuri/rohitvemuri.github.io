@@ -11,7 +11,7 @@ html, body {
 @font-face {
     font-family: 'Avenir';
     src: url('resources/AvenirLTStd-Book.otf') format('truetype');
- }
+}
 
 body {
     background-color: whitesmoke;
