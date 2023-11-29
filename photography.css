@@ -1,5 +1,4 @@
 html, body {
-    /* width: 100%; */
     min-height: 100%;
 }
 
@@ -15,9 +14,6 @@ html, body {
 
 body {
     background-color: whitesmoke;
-    /* background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 60s ease infinite; */
 }
 
 @keyframes gradient {
@@ -36,36 +32,20 @@ body {
 }
 
 .content {
-    max-width: 600px;
-    min-height: 100%;
     top: 0;
     float: center;
-    /* position: absolute; */
     margin-left: auto;
     margin-right: auto;
     font-family: 'Avenir';
-    padding: 0;
-    /* background-color: rgba(250, 227, 113, .2); */
+    margin-bottom: 5vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
 
 header {
     text-align: center;
     color: whitesmoke;
 }
-
-/* header h1 {
-    font-family: 'Bacalisties';
-    font-weight: bolder;
-    padding-top:10px;
-    font-style: italic;
-    background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradient 60s ease infinite;
-    -moz-animation: gradient 60s ease infinite;
-	-webkit-animation: gradient 60s ease infinite;
-} */
 
 header h1 {
 	background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
@@ -120,16 +100,6 @@ header h1 a {
     padding-left: 0px;
 }
 
-/* .dot {
-    background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
-	background-size: 200%;
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	animation: gradient 10s ease infinite;
-	-moz-animation: gradient 10s ease infinite;
-	-webkit-animation: gradient 10s ease infinite;
-} */
-
 #dot1 {
     color: #ee7752;
 }
@@ -172,8 +142,6 @@ section .blog-paragraph {
 }
 
 .entry {
-    /* margin-left: auto;
-    margin-right: auto; */
     float: center;
     text-align: center;
     padding-top: 10px;
@@ -216,66 +184,4 @@ section .blog-paragraph {
 	animation: gradient 10s ease infinite;
 	-moz-animation: gradient 10s ease infinite;
 	-webkit-animation: gradient 10s ease infinite;
-}
-
-/* DROPDOWN STYLES */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: whitesmoke;
-    z-index: 1;
-    left: 50%; /* Center the dropdown */
-    transform: translateX(-50%); /* Adjust to center */
-}
-
-.dropdown-buffer {
-    height: 15px;
-}
-
-.dropdown-border {
-    border: 3px solid transparent; /* Set initial border style */
-    border-image: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
-    border-image-slice: 1; /* Ensure the entire border is covered by the gradient */
-    padding: 10px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    width: 400px;
-}
-
-/* Style for header and caption */
-.dropdown-item {
-    cursor: pointer;
-    padding: 5px 0;
-    color: #3f3f3f;
-}
-
-.dropdown-header a:hover {
-    font-weight: 500;
-    text-decoration: none;
-    background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
-    background-size: 400%;
-    background-clip: text;
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	animation: gradient 10s ease infinite;
-	-moz-animation: gradient 10s ease infinite;
-	-webkit-animation: gradient 10s ease infinite;
-}
-
-.dropdown-body {
-    font-size: 16px;
-    color: #3f3f3f;
-    text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    font-style: italic;
 }
