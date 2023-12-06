@@ -279,3 +279,12 @@ section .blog-paragraph {
     padding-top: 5px;
     font-style: italic;
 }
+
+.dropdown-body-anchor {
+    font-weight: 700;
+}
+
+.dropdown-body-anchor:hover {
+    font-weight: 700;
+    text-decoration: underline;
+}
