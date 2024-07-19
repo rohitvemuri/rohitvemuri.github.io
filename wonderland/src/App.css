@@ -1,0 +1,332 @@
+html, body {
+  /* width: 100%; */
+  min-height: 100%;
+}
+
+@font-face {
+  font-family: 'Bacalisties';
+  src: url('resources/Bacalisties.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('resources/AvenirLTStd-Book.otf') format('truetype');
+}
+
+body {
+  background-color: whitesmoke;
+  /* background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 60s ease infinite; */
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 33%;
+  }
+  33% {
+      background-position: 67% 33%;
+  }
+  67% {
+      background-position: 100% 67%;
+  }
+  100% {
+      background-position: 0% 33%;
+  }
+}
+
+.content {
+  max-width: 600px;
+  min-height: 100%;
+  top: 0;
+  float: center;
+  /* position: absolute; */
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Avenir';
+  padding: 0;
+  /* background-color: rgba(250, 227, 113, .2); */
+}
+
+header {
+  text-align: center;
+  color: whitesmoke;
+}
+
+/* header h1 {
+  font-family: 'Bacalisties';
+  font-weight: bolder;
+  padding-top:10px;
+  font-style: italic;
+  background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 60s ease infinite;
+  -moz-animation: gradient 60s ease infinite;
+-webkit-animation: gradient 60s ease infinite;
+} */
+
+header h1 {
+background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+background-size: 200%;
+font-family: 'Bacalisties';
+font-weight: 700;
+font-size: 40px;
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 10s ease infinite;
+-moz-animation: gradient 10s ease infinite;
+-webkit-animation: gradient 10s ease infinite;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+.links{
+  list-style: none;
+  padding-left: 0px;
+  font-size: 18px;
+  color: black;
+}
+
+.links li{
+  display: inline;
+  padding-left: 8px;
+  font-weight: 500;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+.links li a:hover {
+  font-weight: 500;
+  text-decoration: none;
+  background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 10s ease infinite;
+-moz-animation: gradient 10s ease infinite;
+-webkit-animation: gradient 10s ease infinite;
+}
+
+.links li:first-child {
+  padding-left: 0px;
+}
+
+/* .dot {
+  background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+background-size: 200%;
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 10s ease infinite;
+-moz-animation: gradient 10s ease infinite;
+-webkit-animation: gradient 10s ease infinite;
+} */
+
+#dot1 {
+  color: #ee7752;
+}
+
+#dot2 {
+  color: #d03ce7;
+}
+
+#dot3 {
+  color: #23a6d5;
+}
+
+#dot4 {
+  color: #23d5ab;
+}
+
+section .homepage-paragraph {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+section .paragraph-link {
+  font-weight: 500;
+  text-decoration: none;
+  background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 10s ease infinite;
+-moz-animation: gradient 10s ease infinite;
+-webkit-animation: gradient 10s ease infinite;
+}
+
+section .blog-paragraph {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.entry {
+  /* margin-left: auto;
+  margin-right: auto; */
+  float: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.entry h2 {
+  font-weight: 600;
+  text-decoration: none;
+  background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 10s ease infinite;
+-moz-animation: gradient 10s ease infinite;
+-webkit-animation: gradient 10s ease infinite;
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+.entry h2 a {
+  text-decoration: none;
+}
+
+.entry h3 {
+  font-weight: 100;
+  font-size: 16px;
+  color: #777777;
+  margin-top: 5px;
+  padding-bottom: 15px;
+}
+
+.blog-dot {
+  text-decoration: none;
+  background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 10s ease infinite;
+-moz-animation: gradient 10s ease infinite;
+-webkit-animation: gradient 10s ease infinite;
+}
+
+/* DROPDOWN STYLES */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  z-index: 1;
+  left: 50%; /* Center the dropdown */
+  transform: translateX(-50%); /* Adjust to center */
+}
+
+.dropdown-buffer {
+  height: 15px;
+}
+
+.dropdown-border {
+  border: 3px solid transparent; /* Set initial border style */
+  border-image: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+  border-image-slice: 1; /* Ensure the entire border is covered by the gradient */
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 400px;
+}
+
+/* Style for header and caption */
+.dropdown-item {
+  cursor: pointer;
+  padding: 5px 0;
+  color: #3f3f3f;
+}
+
+.dropdown-header a:hover {
+  font-weight: 500;
+  text-decoration: none;
+  background: linear-gradient(-45deg, rgb(250, 227, 113) ,#ee7752, #e73c7e, #d03ce7, #23a6d5, #23d5ab);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 10s ease infinite;
+-moz-animation: gradient 10s ease infinite;
+-webkit-animation: gradient 10s ease infinite;
+}
+
+.dropdown-body {
+  font-size: 16px;
+  color: #3f3f3f;
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  font-style: italic;
+}
+
+.dropdown-body-anchor {
+  font-weight: 700;
+}
+
+.dropdown-body-anchor:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #3f3f3f;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 18px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
